@@ -23,11 +23,11 @@ Prometheus Certified Associate Beta exam
 
 ## PCA repo topics overview
 
-  - [X] [Observability Concepts	- 18%](#Observability-Concepts---18)
-  - [X] [Prometheus Fundamentals - 20%](#Prometheus-Fundamentals---20)
-  - [X] [ PromQL- 28%](#PromQL---28)
-  - [X] [Instrumentation and Exporters	16%](#Instrumentation-and-Exporters---16)
-  - [X] [Alerting & Dashboarding	18%](#Alerting-and-Dashboarding---18)
+  - [] [Observability Concepts	- 18%](#Observability-Concepts---18)
+  - [] [Prometheus Fundamentals - 20%](#Prometheus-Fundamentals---20)
+  - [] [ PromQL- 28%](#PromQL---28)
+  - [] [Instrumentation and Exporters	16%](#Instrumentation-and-Exporters---16)
+  - [] [Alerting & Dashboarding	18%](#Alerting-and-Dashboarding---18)
 
 ### Observability Concepts	- 18%
 1. https://www.honeycomb.io/blog/observability-101-terminology-and-concepts/
