@@ -32,8 +32,8 @@ Prometheus Certified Associate Beta exam
 ### Observability Concepts	- 18%
 
 - [x] Metrics
-- [] Understand logs and events
-- [] Tracing and Spans
+- [x] Understand logs and events
+- [x] Tracing and Spans
 - [] Push vs Pull
 - [] Service Discovery
 - [] Basics of SLOs, SLAs, and SLIs
