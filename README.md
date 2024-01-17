@@ -39,7 +39,7 @@ Prometheus Certified Associate Beta exam
 - [] Basics of SLOs, SLAs, and SLIs
 
 ### Prometheus Fundamentals - 20%
-- [] System Architecture
+- [x] System Architecture
 - [] Configuration and Scraping
 - [] Understanding Prometheus Limitations
 - [] Data Model and Labels
