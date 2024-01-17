@@ -34,11 +34,17 @@ Prometheus Certified Associate Beta exam
 - [x] Metrics
 - [x] Understand logs and events
 - [x] Tracing and Spans
-- [] Push vs Pull
-- [] Service Discovery
+- [x] Push vs Pull
+- [x] Service Discovery
 - [] Basics of SLOs, SLAs, and SLIs
 
 ### Prometheus Fundamentals - 20%
+- [] System Architecture
+- [] Configuration and Scraping
+- [] Understanding Prometheus Limitations
+- [] Data Model and Labels
+- [] Exposition Format
+
 ### PromQL- 28%
 #### Selecting Data
 1. [Promlabs blog selecting data in promql](https://promlabs.com/blog/2020/07/02/selecting-data-in-promql)
