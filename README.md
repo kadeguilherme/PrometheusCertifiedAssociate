@@ -36,7 +36,7 @@ Prometheus Certified Associate Beta exam
 - [x] Tracing and Spans
 - [x] Push vs Pull
 - [x] Service Discovery
-- [] Basics of SLOs, SLAs, and SLIs
+- [x] Basics of SLOs, SLAs, and SLIs
 
 ### Prometheus Fundamentals - 20%
 - [x] System Architecture
