@@ -41,7 +41,7 @@ Prometheus Certified Associate Beta exam
 ### Prometheus Fundamentals - 20%
 - [x] System Architecture
 - [x] Configuration and Scraping
-- [] Understanding Prometheus Limitations
+- [X] Understanding Prometheus Limitations
 - [] Data Model and Labels
 - [] Exposition Format
 
