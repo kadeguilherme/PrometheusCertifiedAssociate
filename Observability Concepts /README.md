@@ -1,7 +1,8 @@
-Observability Concepts
-===
+# 1  Observability Concepts
 
-A observability está definida em 3 pilares fundamentais: **Metrics, Tracing e Logging.***
+
+# 1.1  Metrics, Tracing e Logging
+A observability está definida em 3 pilares fundamentais: **Metrics, Tracing e Logging.**
 
 Metrics:
 --
@@ -23,3 +24,11 @@ Capturar e armazenar logs é sem dúvida a prática mais comumente utilizada com
 Outro aspecto importante a ser considerado ao habilitar a captura de logs é que processa-los e armazena-los é bastante custoso e requer um planejamento adequado. A maioria das linguagens e frameworks de programação oferecem bibliotecas padrão para geração de logs, porém nem todas são eficientes e muitas delas podem consumir muitos recursos ou ainda impactar negativamente o desempenho dos próprios sistemas, como pode ser o caso de uma classe de logs que, por exemplo, grave logs em arquivos texto de forma serial e sob um alto volume de acesso ou com o nível de verbosidade inadequado, possa acabar causando algum tipo de enfileiramento e consequente exaustão do thread pool do application server.
 
 Também é importante observar que a maioria dos logs, exceto para os registros necessário para efeitos legais e regulatórios, se tornam desnecessários após alguns poucos dias, é importante criar as condições de armazenar uma amostra representativa dos eventos por um período limitado de tempo e também criar as condições para tratar os logs como um fluxo contínuo de eventos e, quando necessário (durante um incidente por exemplo) manipula-los e extrair as informações necessárias para entender o PORQUE dos incidentes. Existe uma quantidade razoável de ferramentas que permitem tratar logs como event streams e aplicar transformações estatísticas sobre esse fluxo de dados antes de agrega-los e armazena-los.
+##
+# 1.2  Understand events
+Os dois tipos são usados para diferentes propositos, O log tem o proposito de troubleshootin e analizar a causa raiz do probema, enuanto o events é usado para dar insights da aplicacão.
+Existem pesquisadores que a observabilidade é composta por 4 pilares: **Logs, Metrics, Traces e Events (MELT)**
+
+Events
+---
+Telemetria de eventos envolve ações discretas que ocorrem em um momento específico no tempo. Pense nos eventos como um histórico do que aconteceu em seu sistema, o que pode ser útil ao analisar comportamentos de usuário e mais.
