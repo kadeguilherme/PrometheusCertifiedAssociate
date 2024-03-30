@@ -24,7 +24,7 @@ Prometheus Certified Associate Beta exam
 ## PCA repo topics overview
 
   - [x] [Observability Concepts	- 18%](#Observability-Concepts---18)
-  - [X] [Prometheus Fundamentals - 20%](#Prometheus-Fundamentals---20)
+  - [] [Prometheus Fundamentals - 20%](#Prometheus-Fundamentals---20)
   - [] [ PromQL- 28%](#PromQL---28)
   - [] [Instrumentation and Exporters	16%](#Instrumentation-and-Exporters---16)
   - [] [Alerting & Dashboarding	18%](#Alerting-and-Dashboarding---18)
@@ -34,14 +34,14 @@ Prometheus Certified Associate Beta exam
 - [x] Metrics
 - [x] Understand logs and events
 - [x] Tracing and Spans
-- [x] Push vs Pull
-- [x] Service Discovery
-- [x] Basics of SLOs, SLAs, and SLIs
+- [] Push vs Pull
+- [] Service Discovery
+- [] Basics of SLOs, SLAs, and SLIs
 
 ### Prometheus Fundamentals - 20%
-- [x] System Architecture
-- [x] Configuration and Scraping
-- [X] Understanding Prometheus Limitations
+- [] System Architecture
+- [] Configuration and Scraping
+- [] Understanding Prometheus Limitations
 - [] Data Model and Labels
 - [] Exposition Format
 
