@@ -32,3 +32,22 @@ Existem pesquisadores que a observabilidade é composta por 4 pilares: **Logs, M
 Events
 ---
 Telemetria de eventos envolve ações discretas que ocorrem em um momento específico no tempo. Pense nos eventos como um histórico do que aconteceu em seu sistema, o que pode ser útil ao analisar comportamentos de usuário e mais.
+
+---
+
+# 1.3  Tracing e Spans
+
+O contexto de monitoramento de desempenho de aplicativos (APM) e da observabilidade. O "traces" e "spans" são conceitos fundamentais, ajudando os usuarios a acompanhar e compreender o fluxo de solicitacões e operacões dentro do sistema. Em resumo. trata-se da capacidade de rastrear e entender como as diversas partes de um sistema interagem e se comportam em relacão as solicitacões e operacões realizadas. Essa compreensão é crucial para otimizar o desempenho e diagnosticar problemas em sistemas complexos, como bottlenecks, troubleshoot issues e fornece otimizacão de performace.
+
+
+# Traces vs Spans
+Conhecer como sua aplicacão trabalha e detectar e mitigar problema de desempenho sempre foi parte fundamental da gestão e monitoramento de desempenho de aplicativos (APM).
+
+###  O que sao traces ?
+Representa a jornada complenta de uma requisicão ou acão enquanto ela se mover por todos os node de um sistema distrubuido, especialmene aplicacão contentorizado ou arquitetura de micro-servicos. Como parte de APM, traces ajuda desenvolvedores e engenheiros de operacões a compreender a jornada ponta a ponta da requisicão. Tracing formula uma parte da solucão de monitoramento,, é necessário um esforço adicional para interpretar e utilizar esses dados de forma eficaz.
+
+### O que sao spans ?
+Span é uma operacão ou "trabalho" que ocorre em um servico. Um exemplo disso seria uma servidor web respondendo a um solicitacão HTTP ou uma unica invocacão de uma funcão. Um span tem um horario de inicio e um horario de fim.  Uma série de intervalos de tempo marcados, conhecidos como "spans", formam uma única "trace" no rastreamento distribuído.
+
+O prometheus integrar com outras ferramentas que lidam com rastreamento distribuido, como Jaeger, Zipkin ou sistemas que suportam o padrao OpenTelemetry.
+Em um cenário onde o Prometheus é integrado com uma ferramenta de rastreamento distribuído, os spans e traces capturados pelos instrumentos de rastreamento podem ser usados para correlacionar com métricas coletadas pelo Prometheus. Isso pode fornecer uma visão mais completa e detalhada do desempenho do sistema, permitindo aos engenheiros correlacionar eventos, diagnosticar problemas e otimizar o desempenho.
