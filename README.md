@@ -34,9 +34,9 @@ Prometheus Certified Associate Beta exam
 - [x] Metrics
 - [x] Understand logs and events
 - [x] Tracing and Spans
-- [] Push vs Pull
+- [x] Push vs Pull
 - [] Service Discovery
-- [] Basics of SLOs, SLAs, and SLIs
+- [x] Basics of SLOs, SLAs, and SLIs
 
 ### Prometheus Fundamentals - 20%
 - [] System Architecture
